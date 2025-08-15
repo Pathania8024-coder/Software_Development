@@ -7,7 +7,7 @@ int main (){
    string str2 ("needle");
 
   // different member versions of find in the same order as above:
-  std::size_t found = str.find(str2);
+  size_t found = str.find(str2);
   if (found!= string :: npos)
     cout << "first 'needle' found at: " << found << '\n';
 
